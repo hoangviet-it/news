@@ -1,0 +1,37 @@
+.container {
+    margin-top: 0;
+}
+.bread-crumb {
+    background-color: #f3f3f3;
+    border-top: 1px solid #d8d8d8;
+    height: 30px;
+    width: 100%;
+    margin-top: 61px;
+}
+.frame-crumb {
+    list-style-type: none;
+    margin: auto;
+    max-width: 1170px;
+}
+.frame-crumb li {
+    display: inline-block;
+}
+.frame-crumb li a {
+    color: #565656;
+    font: 9pt 'Roboto Regular';
+    line-height: 30px;
+    padding: 7px 5px 7px 0;
+    text-decoration: none;
+}
+.frame-crumb li .link-home {
+    font: 9pt 'Roboto Medium';
+    font-weight: 600;
+}
+.frame-crumb li .icon-crumb {
+    font-size: 12px;
+    padding: 0;
+    vertical-align: middle;
+}
+.frame-crumb li .icon-crumb i {
+    color: #565656;
+}

@@ -1,0 +1,213 @@
+/*--------------------header----------------*/
+@import url('../css/header.css');
+/*-------------------footer-----------------*/
+@import url('../css/footer.css');
+/*-------------------main-right-----------------*/
+@import url('../css/main-right.css');
+/*-------------------bread-crumb-----------------*/
+@import url('../css/bread-crumb.css');
+
+.content-detail h2 {
+    max-width: 668px;
+    font: 19.3pt 'Roboto Medium';
+    margin-bottom: 30px;
+}
+.content-detail p {
+    color: #444;
+    font: 10.36pt 'Roboto Regular';
+    line-height: 22px;
+    margin-top: 30px;
+    text-align: justify;
+}
+.content-detail .author {
+    font: 10.4pt 'Roboto Medium';
+    margin-left: 100%;
+    transform: translateX(-40px);
+}
+.comment span a {
+    background-color: #4267b2;
+    border-radius: 4px;
+    color: #fff;
+    font: 9pt 'Roboto Regular';
+    padding: 4px 7px;
+    text-decoration: none;
+}
+.quantity-and-Sort {
+    border-bottom: 1px solid #d2d5da;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 20px;
+}
+.quantity,
+.sort {
+    font: 10pt 'Roboto Medium';
+    line-height: 40px;
+}
+.sort {
+    color: #888;
+}
+.btn-sort {
+    background-color: #f6f7f9;
+    border: none;
+    border-radius: 4px;
+    color: #888;
+    cursor: pointer;
+    padding: 3px 7px;
+    outline: 1px solid rgb(214, 212, 212);
+}
+.img-avatar {
+    background-color: #d2d5da;
+    height: 45px;
+    text-align: center;
+    width: 45px;
+}
+.write-comment {
+    border-bottom: 1px solid #d2d5da;
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+.write-comment input {
+    border: none;
+    color: #999;
+    margin-left: 10px;
+    outline: 1px solid #d2d5da;
+    padding-left: 15px;
+    width: 100%;
+}
+.write-comment input::placeholder {
+    color: #999;
+}
+.img-avatar i {
+    color: #fff;
+    font-size: 30px;
+    line-height: 47px;
+}
+.link-fb {
+    font: 9pt 'Roboto Regular';
+    color: #4267b2;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.offer {
+    margin-top: 30px;
+}
+.header-offer {
+    border-bottom: 1px solid var(--color-category);
+    margin-bottom: 20px;
+}
+.header-offer p {
+    font: 16pt 'Roboto Medium';
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+.image-control-slide {
+    display: flex;
+    justify-content: space-between;
+}
+.image-control-slide div {
+    max-width: 255px;
+}
+.image-control-slide div p {
+    font: 10.2pt 'Roboto Bold';
+    line-height: 20px;
+    margin-top: 10px;
+}
+.dot-controll {
+    margin: auto;
+    margin-top: 5px;
+    max-width: 60px;
+}
+.dot-controll i {
+    color: #b5b5b5;
+    font-size: 6px;
+    padding: 0 5px;
+}
+.slide-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slide-main {
+    display: flex;
+}
+.image-control-slide {
+    flex: 1 0 100%;
+    height: 100%;
+    width: 100%;
+}
+.slide-wrapper button {
+    display: none;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}
+.num {
+    cursor: pointer;
+}
+.num.active {
+    color: #444;
+}
+.main-right {
+    margin-top: 60px;
+}
+.frame-img-detail {
+    margin: auto;
+    max-width: 795px;
+}
+.frame-img-detail img {     
+    width: 100%;
+}
+
+@media only screen and (max-width: 1169px) {
+    .container,
+    .frame-crumb {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .content-detail h2 {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .image-control-slide div,
+    .image-control-slide div img {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .image-control-slide div,
+    .image-control-slide div img {
+        width: 168px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .image-control-slide div,
+    .image-control-slide div img {
+        width: 105px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .image-control-slide div,
+    .image-control-slide div img {
+        width: 95px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .image-control-slide div,
+    .image-control-slide div img {
+        width: 70px;
+    }
+    .quantity-and-Sort .quantity span,
+    .quantity-and-Sort .sort span {
+        font-size: 8pt;
+    }
+    .btn-sort {
+        font-size: 7pt;
+        padding: 0;
+    }
+}

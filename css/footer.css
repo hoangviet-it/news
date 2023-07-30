@@ -1,0 +1,110 @@
+footer {
+    width: 100%;
+}
+.container-footer {
+    background-color: var(--color-category);
+    min-height: 345px;
+    margin-top: 80px;
+    width: 100%;
+}
+.frame-footer-menu {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: auto;
+    max-width: 1170px;
+}
+.about {
+    max-width: 278px;
+    padding-right: 25px;
+}
+.about h3,
+.category h3,
+.news h3,
+.fanpage h3 {
+    font: 16pt 'Roboto Medium';
+    letter-spacing: 1.5px;
+    padding: 35px 0;
+    text-transform: uppercase;
+}
+.about p {
+    font: 11pt 'Roboto Regular';
+    line-height: 23px;
+    text-align: justify;
+}
+.email-footer {
+    padding: 20px 0;
+}
+.icon-email,
+.icon-phone {
+    vertical-align: middle;
+}
+.text-email,
+.text-phone {
+    font: 11pt 'Roboto Regular';
+    margin-left: 15px;
+}
+.category {
+    min-width: 165px;
+    padding-left: 15px;
+}
+.category ul,
+.news ul {
+    list-style-type: none;
+}
+.category ul li,
+.news ul li {
+    padding-bottom: 20px;
+}
+.category ul li a,
+.news ul li a {
+    color: #fff;
+    font: 11pt 'Roboto Regular';
+    margin-left: 15px;
+    text-decoration: none;
+}
+.news {
+    width: 310px;
+}
+.news ul li {
+    display: flex;
+    gap: 15px;
+}
+.fa-angle-right {
+    margin-top: 5px;
+}
+.news ul li div a {
+    line-height: 26px;
+    margin-left: 0;
+}
+.frame-img-footer-fanpage,
+.frame-img-footer-fanpage img {
+    height: 197px;
+    width: 277px;
+}
+.copyright {
+    height: 45px;
+    text-align: center;
+    width: 100%;
+}
+.copyright p {
+    color: #454545;
+    font: 10.5pt 'Roboto Regular';
+    line-height: 45px;
+}
+
+@media only screen and (max-width: 280px) {
+    .footer-menu {
+        max-width: 220px;
+    }
+    .fanpage {
+        width: 220px;
+    }
+    .frame-img-footer-fanpage {
+        max-width: 220px;
+    }
+    .frame-img-footer-fanpage a img {
+        width: 200px;
+    }
+}

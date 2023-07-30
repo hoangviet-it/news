@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Category</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="../css/category.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+          <div class="logo">
+            <h1><a href="#!" title="Vietsoz">vietsoz</a></h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="../html/home.html" title="trang chủ">trang chủ</a></li>
+              <li><a href="#!" title="sự kiện">sự kiện</a></li>
+              <li><a href="#!" title="xã hội">xã hội</a></li>
+              <li><a href="#!" title="thế giới">thế giới</a></li>
+              <li><a href="#!" title="giáo dục">giáo dục</a></li>
+              <li><a href="#!" title="giải trí">giải trí</a></li>
+              <li><a href="#!" title="nhị sống trẻ">nhịp sống trẻ</a></li>
+            </ul>
+          </nav>
+          <nav class="menu-mobile">
+            <ul>
+              <li><a href="../html/home.html" title="trang chủ">trang chủ</a></li>
+              <li><a href="#!" title="sự kiện">sự kiện</a></li>
+              <li><a href="#!" title="xã hội">xã hội</a></li>
+              <li><a href="#!" title="thế giới">thế giới</a></li>
+              <li><a href="#!" title="giáo dục">giáo dục</a></li>
+              <li><a href="#!" title="giải trí">giải trí</a></li>
+              <li><a href="#!" title="nhị sống trẻ">nhịp sống trẻ</a></li>
+            </ul>
+          </nav>
+          <div class="header-search">
+            <input type="text" name="search" placeholder="Tìm Kiếm" id="search">
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="search-tablet">
+            <input type="text" name="search-tablet" placeholder="Tìm Kiếm" id="input-search-tablet">
+            <button class="btn-search-tablet"><i class="fas fa-search"></i></button>
+          </div>
+          <button class="btn-search" onclick="showInput()"><i class="fas fa-search"></i></button>
+          <button class="btn-close" onclick="closeInput()"><i class="fas fa-times"></i></button>
+          <button class="btn-menu" onclick="showmenu()"><i class="fas fa-bars"></i></button>
+          <button class="btn-closeMenu" onclick="closeMenu()"><i class="fas fa-times"></i></button>
+        </div>
+    </header>
+    <div class="bread-crumb">
+        <ul class="frame-crumb">
+            <li><a href="../html/home.html" title="Home" class="link-home">Trang chủ</a></li>
+            <li><a href="#!" class="icon-crumb" title="icon"><i class="fas fa-chevron-right"></i></a></li>
+            <li><a href="#!" title="This page">Sự kiện</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="main-left">
+                <div class="main-head">
+                    <div class="news-big">
+                        <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                            <div class="frame-img-big">
+                                <img src="../img/img15.png" alt="Image">
+                            </div>
+                        </a>
+                        <div class="title-decription">
+                            <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                                <h2>Công trình xanh cho nhà ở đô thị: Phải hướng đến sự phát triển bền vững</h2>
+                            </a>
+                            <p>Theo thông báo ngày hôm nay (28/1), đối tác chiến lược của Công ty cổ phần Tập đoàn Masan là Singha Asia Holding Pte Ltd (“Singha”) đã hoàn thành đợt góp vốn đầu tiên trị giá 650 triệu USD vào công ty này.</p>
+                        </div>
+                    </div>
+                    <div class="news-child">
+                        <div class="child-left">
+                            <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                                <div class="child-1">
+                                    <img src="../img/img5.png">
+                                    <p>Việt Nam mong muốn sớm ký Hiệp định thương mại tự do với EU</p>
+                                </div>
+                            </a>
+                            <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                                <div class="child-1">
+                                    <img src="../img/img5.png">
+                                    <p>Việt Nam mong muốn sớm ký Hiệp định thương mại tự do với EU</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="child-right">
+                            <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                                <div class="child-1">
+                                    <img src="../img/img4.png">
+                                    <p>Ngành Điện đồng hành cùng người nuôi tôm</p>
+                                </div>
+                            </a>
+                            <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                                <div class="child-1">
+                                    <img src="../img/img4.png">
+                                    <p>Ngành Điện đồng hành cùng người nuôi tôm</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-content-category">
+                    <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                        <div class="frame-img-list-cgr">
+                            <img src="../img/img16.png" alt="Image category">
+                        </div>
+                    </a>
+                    <div class="text-list">
+                        <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                            <h3>Công trình xanh cho nhà ở đô thị: Phải hướng đến sự phát triển bền vững</h3>
+                        </a>
+                        <span class="icon-clock"><i class="fas fa-clock"></i></span>
+                        <span class="time">15/11/2016</span>
+                        <p>Đó là nhận định của Thứ trưởng Bộ Xây dựng - Phan Mỹ Linh tại buổi làm việc với đại diện Hiệp hội Bất động sản Việt Nam, lãnh đạo Công ty CP và Thương mại Thủ đô (Capital House) về nội dung Đề án “Chương trình Thúc đẩy công 28/10/2016 [...]</p>
+                    </div>
+                </div>
+                <div class="list-content-category">
+                    <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                        <div class="frame-img-list-cgr">
+                            <img src="../img/img17.png" alt="Image category">
+                        </div>
+                    </a>
+                    <div class="text-list">
+                        <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                            <h3>Công trình xanh cho nhà ở đô thị: Phải hướng đến sự phát triển bền vững</h3>
+                        </a>
+                        <span class="icon-clock"><i class="fas fa-clock"></i></span>
+                        <span class="time">15/11/2016</span>
+                        <p>Đó là nhận định của Thứ trưởng Bộ Xây dựng - Phan Mỹ Linh tại buổi làm việc với đại diện Hiệp hội Bất động sản Việt Nam, lãnh đạo Công ty CP và Thương mại Thủ đô (Capital House) về nội dung Đề án “Chương trình Thúc đẩy công 28/10/2016 [...]</p>
+                    </div>
+                </div>
+                <div class="list-content-category">
+                    <a href="../html/detail.html" title="Title" style="text-decoration: none;color:#000;">
+                        <div class="frame-img-list-cgr">
+                            <img src="../img/img18.png" alt="Image category">
+                        </div>
+                    </a>
+                    <div class="text-list">
+                        <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                            <h3>Công trình xanh cho nhà ở đô thị: Phải hướng đến sự phát triển bền vững</h3>
+                        </a>
+                        <span class="icon-clock"><i class="fas fa-clock"></i></span>
+                        <span class="time">15/11/2016</span>
+                        <p>Đó là nhận định của Thứ trưởng Bộ Xây dựng - Phan Mỹ Linh tại buổi làm việc với đại diện Hiệp hội Bất động sản Việt Nam, lãnh đạo Công ty CP và Thương mại Thủ đô (Capital House) về nội dung Đề án “Chương trình Thúc đẩy công 28/10/2016 [...]</p>
+                    </div>
+                </div>
+                <div class="list-content-category">
+                    <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                        <div class="frame-img-list-cgr">
+                            <img src="../img/img19.png" alt="Image category">
+                        </div>
+                    </a>
+                    <div class="text-list">
+                        <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                            <h3>Công trình xanh cho nhà ở đô thị: Phải hướng đến sự phát triển bền vững</h3>
+                        </a>
+                        <span class="icon-clock"><i class="fas fa-clock"></i></span>
+                        <span class="time">15/11/2016</span>
+                        <p>Đó là nhận định của Thứ trưởng Bộ Xây dựng - Phan Mỹ Linh tại buổi làm việc với đại diện Hiệp hội Bất động sản Việt Nam, lãnh đạo Công ty CP và Thương mại Thủ đô (Capital House) về nội dung Đề án “Chương trình Thúc đẩy công 28/10/2016 [...]</p>
+                    </div>
+                </div>
+                <div class="list-content-category">
+                    <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                        <div class="frame-img-list-cgr">
+                            <img src="../img/img20.png" alt="Image category">
+                        </div>
+                    </a>
+                    <div class="text-list">
+                        <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                            <h3>Công trình xanh cho nhà ở đô thị: Phải hướng đến sự phát triển bền vững</h3>
+                        </a>
+                        <span class="icon-clock"><i class="fas fa-clock"></i></span>
+                        <span class="time">15/11/2016</span>
+                        <p>Đó là nhận định của Thứ trưởng Bộ Xây dựng - Phan Mỹ Linh tại buổi làm việc với đại diện Hiệp hội Bất động sản Việt Nam, lãnh đạo Công ty CP và Thương mại Thủ đô (Capital House) về nội dung Đề án “Chương trình Thúc đẩy công 28/10/2016 [...]</p>
+                    </div>
+                </div>
+                <div class="list-content-category">
+                    <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                        <div class="frame-img-list-cgr">
+                            <img src="../img/img21.png" alt="Image category">
+                        </div>
+                    </a>
+                    <div class="text-list">
+                        <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                            <h3>Công trình xanh cho nhà ở đô thị: Phải hướng đến sự phát triển bền vững</h3>
+                        </a>
+                        <span class="icon-clock"><i class="fas fa-clock"></i></span>
+                        <span class="time">15/11/2016</span>
+                        <p>Đó là nhận định của Thứ trưởng Bộ Xây dựng - Phan Mỹ Linh tại buổi làm việc với đại diện Hiệp hội Bất động sản Việt Nam, lãnh đạo Công ty CP và Thương mại Thủ đô (Capital House) về nội dung Đề án “Chương trình Thúc đẩy công 28/10/2016 [...]</p>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <span class="text-page">Trang:</span>
+                    <span><a class="number-1" href="#!" title="Page">1</a></span>
+                    <span><a href="#!" title="Page">2</a></span>
+                    <span><a href="#!" title="Page">3</a></span>
+                    <span><a href="#!" title="Page">...</a></span>
+                    <span><a href="#!" title="Page"><i class="fas fa-chevron-right"></i></a></span>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="frame-img-qc">
+                  <a href="#!" title="Title" style="text-decoration: none;color:#000;"><img src="../img/img10.png" alt="Image"></a>
+                </div>
+                <div class="list-offer">
+                  <div class="title-offer">
+                    <p>đọc nhiều nhất</p>
+                  </div>
+                  <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                    <div class="list-content-offer">
+                      <div class="frame-img-content-offer">
+                        <img src="../img/img2.png" alt="Image">
+                      </div>
+                      <p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự</p>
+                    </div>
+                  </a>
+                  <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                    <div class="list-content-offer">
+                      <div class="frame-img-content-offer">
+                        <img src="../img/img3.png" alt="Image">
+                      </div>
+                      <p>Thưởng tết ngân hàng vần còn nhiều ẩn số</p>
+                    </div>
+                  </a>
+                  <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                    <div class="list-content-offer">
+                      <div class="frame-img-content-offer">
+                        <img src="../img/img4.png" alt="Image">
+                      </div>
+                      <p>Airbus lần đầu tiên bán được máy bay A380 sau 2 năm.. ế</p>
+                    </div>
+                  </a>
+                  <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                    <div class="list-content-offer">
+                      <div class="frame-img-content-offer">
+                        <img src="../img/img5.png" alt="Image">
+                      </div>
+                      <p>Gã khổng lồ Thái định thâu tóm toàn bộ Prime Group</p>
+                    </div>
+                  </a>
+                  <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                    <div class="list-content-offer">
+                      <div class="frame-img-content-offer">
+                        <img src="../img/img11.png" alt="Image">
+                      </div>
+                      <p>Richard Branson: 'Muốn có năng suất hơn? Hãy đúng giờ hơn!'</p>
+                    </div>
+                  </a>
+                  <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                    <div class="list-content-offer">
+                      <div class="frame-img-content-offer">
+                        <img src="../img/img12.png" alt="Image">
+                      </div>
+                      <p>Hà Nội: Đẩy nhanh điện khí hóa nông thôn</p>
+                    </div>
+                  </a>
+                  <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                    <div class="list-content-offer">
+                      <div class="frame-img-content-offer">
+                        <img src="../img/img4.png" alt="Image">
+                      </div>
+                      <p>Airbus lần đầu tiên bán được máy bay A380 sau 2 năm.. ế</p>
+                    </div>
+                  </a>
+                  <a href="#!" title="Title" style="text-decoration: none;color:#000;">
+                    <div class="list-content-offer">
+                      <div class="frame-img-content-offer">
+                        <img src="../img/img2.png" alt="Image">
+                      </div>
+                      <p>Ngân hàng có kế hoạch tuyển hàng nghìn nhân sự</p>
+                    </div>
+                  </a>
+                  <div class="advertising">
+                    <a href="#!" title="Title" style="text-decoration: none;color:#000;"><img src="../img/img13.png" alt="Image advertising"></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-footer">
+          <div class="frame-footer-menu">
+            <div class="footer-menu about">
+              <h3>về chúng tôi</h3>
+              <p><b>VIETSOZ</b> được thành lập vào tháng 8 năm 2016, hứa hẹn sẽ là một công ty hàng đầu sẽ cung cấp các giải pháp công nghệ tốt nhất cả trong nước và ngoài nước</p>
+              <div class="email-footer">
+                <span class="icon-email"><i class="far fa-envelope"></i></span>
+                <span class="text-email">support@vietsoz.com</span>
+              </div>
+              <div class="phone-footer">
+                <span class="icon-phone"><i class="fas fa-phone-alt"></i></span>
+                <span class="text-phone">09.888.59.692</span>
+              </div>
+            </div>
+            <div class="footer-menu category">
+              <h3>danh mục</h3>
+              <ul>
+                <li><i class="fas fa-angle-right"></i><a href="#!" title="Sự kiện">Sự kiện</a></li>
+                <li><i class="fas fa-angle-right"></i><a href="#!" title="Xã hội">Xã hội</a></li>
+                <li><i class="fas fa-angle-right"></i><a href="#!" title="Thế giới">Thế giới</a></li>
+                <li><i class="fas fa-angle-right"></i><a href="#!" title="Giáo dục">Giáo dục</a></li>
+                <li><i class="fas fa-angle-right"></i><a href="#!" title="Nhịp sống trẻ">Nhịp sống trẻ</a></li>
+              </ul>
+            </div>
+            <div class="footer-menu news">
+              <h3>tin tức nổi bật</h3>
+              <ul>
+                <li>
+                  <div><i class="fas fa-angle-right"></i></div>
+                  <div>
+                    <a href="#!" title="Tin Mới nhất">Năng lượng Mặt trời: Những ý tưởng sáng tạo và ngộ nghĩnh</a>
+                  </div>
+                </li>
+                <li>
+                  <div><i class="fas fa-angle-right"></i></div>
+                  <div>
+                    <a href="#!" title="Tin Mới nhất">Năng lượng Mặt trời: Những ý tưởng sáng tạo và ngộ nghĩnh</a>
+                  </div>
+                </li>
+                <li>
+                  <div><i class="fas fa-angle-right"></i></div>
+                  <div>
+                    <a href="#!" title="Tin Mới nhất">Năng lượng Mặt trời: Những ý tưởng sáng tạo và ngộ nghĩnh</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-menu fanpage">
+              <h3>fanpage</h3>
+              <div class="frame-img-footer-fanpage">
+                <a href="#!" title="Title" style="text-decoration: none;color:#000;"><img src="../img/img14.png" alt="Image Fanpage"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2017 All right reserved - Bản quyền thuộc về VIETSOZ.com</p>
+        </div>
+    </footer>
+    <script src="../js/home.js"></script>
+</body>
+</html>
